@@ -16,7 +16,7 @@
                     <a class="navbar-brand" href="#">Kissalista</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="lista.php">Lista</a></li>
+                    <li class="active"><a href="index.php">Lista</a></li>
                     <li><a href="logout.php">Kirjaudu ulos</a></li>
                 </ul>
             </div>

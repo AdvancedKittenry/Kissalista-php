@@ -1,7 +1,10 @@
 <?php
+namespace kissalista;
 
-require_once 'utils/autoload.php';
+require_once 'utils/common.php';
 
-$view = new kissalista\utils\View("koe");
+utils\Session::ensureLogin();
+
+$view = new utils\View("koe");
 $view->title = "Kissalista";
 $view->display();
