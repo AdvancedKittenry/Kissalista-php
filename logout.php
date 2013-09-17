@@ -1,7 +1,7 @@
 <?php 
 namespace kissalista;
 
-require_once 'utils/common.php';
+require_once 'src/common.php';
 
-utils\Session::setUser(null);
-utils\redirect('login.php');
+Session::setUser(null);
+redirect('login.php');

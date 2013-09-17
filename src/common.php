@@ -1,6 +1,6 @@
 <?php 
 
-namespace kissalista\utils;
+namespace kissalista;
 
 require_once 'view.php';
 require_once 'session.php';

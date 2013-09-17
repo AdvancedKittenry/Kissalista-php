@@ -1,6 +1,6 @@
 <?php
 
-namespace kissalista\utils;
+namespace kissalista;
 
 class View {
     
